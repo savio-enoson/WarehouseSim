@@ -1,0 +1,50 @@
+body {
+    overflow-x: hidden;
+}
+
+#settings, #simulation {
+    min-height: 100vh;
+    padding: 1em 2em;
+    margin: 0;
+}
+
+#settings {
+    background-color: var(--bs-dark);
+    color: var(--bs-light);
+}
+
+#simulation {
+    background-color: var(--bs-light);
+    color: var(--bs-dark);
+}
+
+.dynamic-param-container {
+    margin-left: 15px;
+}
+
+#simulation {
+    text-align: center;
+}
+
+.warehouse_container {
+    margin-bottom: 2em;
+}
+
+i.wh_img {
+    font-size: 5em;
+}
+
+i.truck_img {
+    transform: scaleX(-1);
+    margin-left: 1em;
+    margin-right: 1em;
+}
+i.truck_img.truck_s {
+    font-size: 2em;
+}
+i.truck_img.truck_m {
+    font-size: 2.5em;
+}
+i.truck_img.truck_l {
+    font-size: 3em;
+}
